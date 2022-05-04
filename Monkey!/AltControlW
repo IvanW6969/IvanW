@@ -5,7 +5,7 @@ if getgenv().ExecutedAlt == true then
 end
 if getgenv().MainAccount == game.Players.LocalPlayer.Name then
 	getgenv().ExecutedAlt = true
-	loadstring(game:HttpGet("https://raw.githubusercontent.com/IvanW6969/GUI/main/GamerHostGui"))()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/IvanW6969/GUIFORHOSTMAINACCOUNT/main/GuiForHostMainAccount.lua"))()
 	return
 end
 coroutine.wrap(function()
